@@ -21,9 +21,9 @@
             </li>
             <li class="{{ $elementActive == 'user' || $elementActive == 'profile' ? 'active' : '' }}">
                 <a data-toggle="collapse" aria-expanded="true" href="#laravelExamples">
-                    <i class="nc-icon"><img src="{{ asset('paper/img/laravel.svg') }}"></i>
+                    <i class="nc-icon nc-circle-10"></i>
                     <p>
-                            {{ __('Laravel examples') }}
+                            {{ __('Users') }}
                         <b class="caret"></b>
                     </p>
                 </a>
